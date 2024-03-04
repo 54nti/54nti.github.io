@@ -1,6 +1,36 @@
 [
   
   {
+    "title": "Introducción a Maven",
+    "url": "/posts/intro-a-maven/",
+    "categories": "Java, Maven",
+    "tags": "java, herramientas, construcción, gestión de proyectos",
+    "date": "2024-03-04 11:00:00 -0300",
+    
+
+
+
+
+
+    "snippet": "Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico.Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java.Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez.Qué es Maven?Maven es una herramienta open source para administrar proyectos de software. Poradministrar me refiero a gestionar el ciclo de vida desde la creación de un proyecto en unlenguaje dado, hasta la generación de un binario que pueda distribuirse con el proyecto.Maven nació dentro de la fundación Apache para complementar a Ant, la herramienta decompilación más usada en el mundo Java. Si no la conoces, piensa en Make para C. Esto es,Ant permite crear scripts (usando XML) que indican cómo compilar un proyecto Java y generarun binario.Maven complementa esta tarea brindándonos una estructura consistente de proyectos (todoslos proyectos Maven tienen por default los mismos directorios) y herramientas necesariasactualmente para la complejidad de los proyectos de software: gestión avanzada dedependencias, informes sobre testing automáticos y extensibilidad vía plugins.Por detrás, Maven sigue confiando en Ant para manejar la compilación e incluso puedes usarlas tareas de Ant dentro de Maven. Así que no es en sí un sustituto de esta herramienta, sinoun complemento.RequisitosLa serie de artículos va a estar realizada sobre el sistema operativo Ubuntu. Por lo que si lo sigues desde otro sistema,puedes muy fácilmente descargarte VirtualBox y luego correr dentro de este programa la distribución de trabajo.Lo primero que necesitamos es el JDK (Java Development Kit) pues vamos a estar trabajando con Java. Para esto te recomiendo instalar unaherramienta muy útil que sirve para instalar | usar | eliminar distintos JDKs. Dicha herramienta se llama SDKMAN yse lo instala rápidamente concurl -s &quot;https://get.sdkman.io&quot; | bashPuedes ver más sobre su uso en en su página oficial. Vale aclarar que este programa nos sirve para otras cosas relacionadas con el manejo de herramientas. Ya lo veremos en breve.Ahora instalemos el JDK fácilmente consdk install javaDe ahora en más tendrás instalado Java SE de Temurín que está basado en el OpenJDK. Si todas estas palabras son confusaspuedes ver el  siguiente artículo relacionado con los JDKs que existen y sus proveedores.Para ver la versión de java instalada ejecutajava --versionAhora sí instalemos Maven! Vamos a seguir usando nuestra anterior herramienta para esto.Ejecuta el siguiente comandosdk install mavenPerfecto! Para ver la instalación de Maven instalado podemos ejecutarmvn --versionTodo listoNo nos extendamos más. Hasta este momento tenemos una breve idea de lo que es Maven y la herramienta instalada.Haciendo un repaso de las cosas instaldas :  sdk (fundamental para manejar JDKs y sus versiones, Maven, etc)  jdk (para tener la plataforma Java disponible y así desarrollar/ejecutar nuestro código)  maven (nuestro programa objetivo a aprender)En el próximo artículo comenzaremos a ver de a poco los servicios que nos brinda Maven.Hasta pronto y felicitaciones por llegar hasta aquí."
+  },
+  
+  {
+    "title": "Entendiendo Java y su plataforma (JDK y más)",
+    "url": "/posts/java-y-su-plataforma/",
+    "categories": "General",
+    "tags": "java, jdk",
+    "date": "2024-03-01 11:00:00 -0300",
+    
+
+
+
+
+
+    "snippet": "En construcción"
+  },
+  
+  {
     "title": "Hola Mundo",
     "url": "/posts/hola-mundo/",
     "categories": "General",

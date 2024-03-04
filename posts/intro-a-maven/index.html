@@ -29,25 +29,32 @@
 
   
 
+    
+
+    
+
+  
+
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="java" />
+<meta property="og:title" content="Introducción a Maven" />
 <meta property="og:locale" content="es" />
-<meta name="description" content="A personal website" />
-<meta property="og:description" content="A personal website" />
-<link rel="canonical" href="https://54nti.github.io/tags/java/" />
-<meta property="og:url" content="https://54nti.github.io/tags/java/" />
+<meta name="description" content="Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico. Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java. Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez." />
+<meta property="og:description" content="Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico. Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java. Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez." />
+<link rel="canonical" href="https://54nti.github.io/posts/intro-a-maven/" />
+<meta property="og:url" content="https://54nti.github.io/posts/intro-a-maven/" />
 <meta property="og:site_name" content="54nti" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-03-04T11:00:00-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="java" />
+<meta property="twitter:title" content="Introducción a Maven" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A personal website","headline":"java","url":"https://54nti.github.io/tags/java/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-03-04T11:00:00-03:00","datePublished":"2024-03-04T11:00:00-03:00","description":"Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico. Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java. Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez.","headline":"Introducción a Maven","mainEntityOfPage":{"@type":"WebPage","@id":"https://54nti.github.io/posts/intro-a-maven/"},"url":"https://54nti.github.io/posts/intro-a-maven/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>java | 54nti
+  <title>Introducción a Maven | 54nti
   </title>
 
   <!--
@@ -101,7 +108,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -407,19 +419,13 @@
       
 
         
-          <span>
-            <a href="/tags">
-              Etiquetas
-            </a>
-          </span>
-        
 
       
 
         
 
           
-            <span>java</span>
+            <span>Introducción a Maven</span>
           
 
         
@@ -433,7 +439,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Etiquetas
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -472,40 +478,487 @@
     
       
       
-        <div id="page-tag">
-  <h1 class="pl-lg-2">
-    <i class="fa fa-tag fa-fw text-muted"></i>
-    java
-    <span class="lead text-muted pl-2">3</span>
-  </h1>
-  <ul class="post-content pl-0">
+        <!--
+  Refactor the HTML structure.
+-->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Add attribute 'hide-bullet' to the checkbox list -->
+
+
+
+<!-- images -->
+
+
+
+
+  
+  
+
+  
     
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/intro-a-maven/">Introducción a Maven</a>
-      <span class="dash flex-grow-1"></span>
-      <span class="text-muted small" data-ts="1709560800" data-df="ll">
-        2024-03-04
+      
+      
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+        
+
+    
+      
+
+        <!-- Add CDN URL -->
+        
+
+        <!-- Add image path -->
+        
+
+        
+        
+
+      
+
+      <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+
+      
+
+    
+
+    <!-- Add SVG placehoder to prevent layout reflow -->
+
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+
+  
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+        
+      
+      
+        
+
+    
+      
+
+        <!-- Add CDN URL -->
+        
+
+        <!-- Add image path -->
+        
+
+        
+        
+
+      
+
+      <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+
+      
+
+    
+
+    <!-- Add SVG placehoder to prevent layout reflow -->
+
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+
+  
+
+  
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+<h1 data-toc-skip>Introducción a Maven</h1>
+
+<div class="post-meta text-muted">
+
+  <!-- author -->
+  <div>
+    
+    
+
+	<!--
+    
+    -->
+
+    Por
+    <em>
+      
+        <!--<a href="https://twitter.com/username">Santiago</a>-->
+        Santiago
+      
+    </em>
+  </div>
+
+  <div class="d-flex">
+    <div>
+      <!-- published date -->
+      <span>
+        Escrito
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/timeago.js
+-->
+
+<em class="timeago"
+    data-ts="1709560800"
+    
+      data-toggle="tooltip" data-placement="bottom" data-tooltip-df="llll"
+    
+    >
+  2024-03-04
+</em>
+
       </span>
-    </li>
-    
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/java-y-su-plataforma/">Entendiendo Java y su plataforma (JDK y más)</a>
-      <span class="dash flex-grow-1"></span>
-      <span class="text-muted small" data-ts="1709301600" data-df="ll">
-        2024-03-01
-      </span>
-    </li>
-    
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/hola-mundo/">Hola Mundo</a>
-      <span class="dash flex-grow-1"></span>
-      <span class="text-muted small" data-ts="1708365600" data-df="ll">
-        2024-02-19
-      </span>
-    </li>
-    
-  </ul>
+
+      <!-- lastmod date -->
+      
+
+      <!-- read time -->
+      <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+<!-- words per minute  -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="524 palabras">
+  <em>2 min</em> lectura</span>
+
+
+      <!-- page views -->
+      
+    </div>
+
+  </div> <!-- .d-flex -->
+
+</div> <!-- .post-meta -->
+
+<div class="post-content">
+  <p>Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico.
+Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java.
+Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez.</p>
+
+<p><img data-src="../../assets/maven.png" alt="maven logo" data-proofer-ignore></p>
+
+<h2 id="qué-es-maven"><span class="mr-2">Qué es Maven?</span><a href="#qué-es-maven" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2></h2>
+
+<p>Maven es una herramienta open source para administrar proyectos de software. Por
+administrar me refiero a gestionar el ciclo de vida desde la creación de un proyecto en un
+lenguaje dado, hasta la generación de un binario que pueda distribuirse con el proyecto.
+Maven nació dentro de la fundación Apache para complementar a Ant, la herramienta de
+compilación más usada en el mundo Java. Si no la conoces, piensa en Make para C. Esto es,
+Ant permite crear scripts (usando XML) que indican cómo compilar un proyecto Java y generar
+un binario.
+Maven complementa esta tarea brindándonos una estructura consistente de proyectos (todos
+los proyectos Maven tienen por default los mismos directorios) y herramientas necesarias
+actualmente para la complejidad de los proyectos de software: gestión avanzada de
+dependencias, informes sobre testing automáticos y extensibilidad vía plugins.
+Por detrás, Maven sigue confiando en Ant para manejar la compilación e incluso puedes usar
+las tareas de Ant dentro de Maven. Así que no es en sí un sustituto de esta herramienta, sino
+un complemento.</p>
+
+<h2 id="requisitos"><span class="mr-2">Requisitos</span><a href="#requisitos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2></h2>
+
+<p>La serie de artículos va a estar realizada sobre el sistema operativo Ubuntu. Por lo que si lo sigues desde otro sistema,
+puedes muy fácilmente descargarte VirtualBox y luego correr dentro de este programa la distribución de trabajo.
+Lo primero que necesitamos es el JDK (Java Development Kit) pues vamos a estar trabajando con Java. Para esto te recomiendo instalar una
+herramienta muy útil que sirve para instalar | usar | eliminar distintos JDKs. Dicha herramienta se llama SDKMAN y
+se lo instala rápidamente con</p>
+
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">curl -s "https://get.sdkman.io" | bash
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<p>Puedes ver más sobre su uso en <a href="https://sdkman.io" target="_blank">en su página oficial</a>. Vale aclarar 
+que este programa nos sirve para otras cosas relacionadas con el manejo de herramientas. Ya lo veremos en breve.<br />
+Ahora instalemos el JDK fácilmente con</p>
+
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">sdk install java
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<p>De ahora en más tendrás instalado Java SE de Temurín que está basado en el OpenJDK. Si todas estas palabras son confusas
+puedes ver el <a href="#" target="_blank"> siguiente artículo</a> relacionado con los JDKs que existen y sus proveedores.<br />
+Para ver la versión de java instalada ejecuta</p>
+
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">java --version
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<p>Ahora sí instalemos Maven! Vamos a seguir usando nuestra anterior herramienta para esto.<br />
+Ejecuta el siguiente comando</p>
+
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">sdk install maven
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<p>Perfecto! Para ver la instalación de Maven instalado podemos ejecutar</p>
+
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">mvn --version
+</span></pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="todo-listo"><span class="mr-2">Todo listo</span><a href="#todo-listo" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2></h2>
+
+<p>No nos extendamos más. Hasta este momento tenemos una breve idea de lo que es Maven y la herramienta instalada.<br />
+Haciendo un repaso de las cosas instaldas :</p>
+<ul>
+  <li>sdk (fundamental para manejar JDKs y sus versiones, Maven, etc)</li>
+  <li>jdk (para tener la plataforma Java disponible y así desarrollar/ejecutar nuestro código)</li>
+  <li>maven (nuestro programa objetivo a aprender)</li>
+</ul>
+
+<p><img data-src="../../assets/hackerman.jpg" alt="a hacker guy" data-proofer-ignore></p>
+
+<p>En el próximo artículo comenzaremos a ver de a poco los servicios que nos brinda Maven.<br />
+Hasta pronto y felicitaciones por llegar hasta aquí.</p>
+
 </div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/categories/java/'>Java</a>,
+      <a href='/categories/maven/'>Maven</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw mr-1"></i>
+      
+      <a href="/tags/java/"
+          class="post-tag no-text-decoration" >java</a>
+      
+      <a href="/tags/herramientas/"
+          class="post-tag no-text-decoration" >herramientas</a>
+      
+      <a href="/tags/construcci%C3%B3n/"
+          class="post-tag no-text-decoration" >construcción</a>
+      
+      <a href="/tags/gesti%C3%B3n-de-proyectos/"
+          class="post-tag no-text-decoration" >gestión de proyectos</a>
+      
+  </div>
+  
+
+</div>
+
 
       
     
@@ -843,11 +1296,224 @@
     </div>
 
     
+      
+      
+
+
+
+<!-- BS-toc.js will be loaded at medium priority -->
+<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+
+<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+  <div class="panel-heading pl-3 pt-2 mb-2">Contenidos</div>
+  <nav id="toc" data-toggle="toc"></nav>
+</div>
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div class="col-12 col-lg-11 col-xl-8">
+    <div id="tail-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
+      
+        
+        <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+
+  
+    
+    
+  
+    
+    
+      
+      
+    
+  
+    
+    
+      
+      
+    
+  
+
+
+
+
+
+  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
+    <h3 class="pt-2 mt-1 mb-4 ml-1"
+      data-toc-skip>Próximas lecturas</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/hola-mundo/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/timeago.js
+-->
+
+<em class="timeago small"
+    data-ts="1708365600"
+    
+    >
+  2024-02-19
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Hola Mundo</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                Como la tradición tecnológica manda, iniciamos con un clásico “hola mundo”. Así comenzamos pero
+no nos vamos a detener por demasiado tiempo en eso. Hay mucho que compartir/aprender en estos días.
+A...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/java-y-su-plataforma/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/timeago.js
+-->
+
+<em class="timeago small"
+    data-ts="1709301600"
+    
+    >
+  2024-03-01
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Entendiendo Java y su plataforma (JDK y más)</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                En construcción
+
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+      
+        
+        <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/posts/java-y-su-plataforma/" class="btn btn-outline-primary"
+    prompt="Atrás">
+    <p>Entendiendo Java y su plataforma (JDK y más)</p>
+  </a>
+  
+
+  
+  <span class="btn btn-outline-primary disabled"
+    prompt="Adelante">
+    <p>-</p>
+  </span>
+  
+
+</div>
+
+      
+        
+        <!--  The comments switcher -->
+
+
+      
+    </div>
+  </div>
+</div> <!-- .row -->
 
 
 
@@ -1268,6 +1934,52 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
+
+
+  <!-- image lazy-loading & popup & clipboard -->
+  
+
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js,npm/lozad/dist/lozad.min.js,npm/clipboard@2/dist/clipboard.min.js"></script>
+
+
 
 
 
@@ -1331,7 +2043,7 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 

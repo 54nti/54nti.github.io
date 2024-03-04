@@ -4,7 +4,7 @@
   <id>https://54nti.github.io/</id>
   <title>54nti</title>
   <subtitle>A personal website</subtitle>
-  <updated>2024-02-21T12:05:50-03:00</updated>
+  <updated>2024-03-04T11:18:34-03:00</updated>
   <author>
     <name>Santiago</name>
     <uri>https://54nti.github.io/</uri>
@@ -17,6 +17,85 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Introducción a Maven</title>
+    <link href="https://54nti.github.io/posts/intro-a-maven/" rel="alternate" type="text/html" title="Introducción a Maven" />
+    <published>2024-03-04T11:00:00-03:00</published>
+  
+    <updated>2024-03-04T11:00:00-03:00</updated>
+  
+    <id>https://54nti.github.io/posts/intro-a-maven/</id>
+    <content src="https://54nti.github.io/posts/intro-a-maven/" />
+    <author>
+      <name>Santiago</name>
+    </author>
+
+  
+    
+    <category term="Java" />
+    
+    <category term="Maven" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Dedicado para los que cuando escuchan la palabra Maven piensan que es un tipo de comida o algún animal exótico.
+Es necesario que entendamos cómo funciona esta herramienta fundamental en lo que es la plataforma Java.
+Como siempre acostumbro, serán una serie de artículos breves para aprender una característica a la vez.
+
+
+
+Qué es Maven?
+
+Maven es una herramienta open source para administrar proye...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Entendiendo Java y su plataforma (JDK y más)</title>
+    <link href="https://54nti.github.io/posts/java-y-su-plataforma/" rel="alternate" type="text/html" title="Entendiendo Java y su plataforma (JDK y más)" />
+    <published>2024-03-01T11:00:00-03:00</published>
+  
+    <updated>2024-03-01T11:00:00-03:00</updated>
+  
+    <id>https://54nti.github.io/posts/java-y-su-plataforma/</id>
+    <content src="https://54nti.github.io/posts/java-y-su-plataforma/" />
+    <author>
+      <name>Santiago</name>
+    </author>
+
+  
+    
+    <category term="General" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      En construcción
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
